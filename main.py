@@ -39,7 +39,7 @@ def execute():
     print("Filtering JSON")
     req.filterDicts()
     print("Writing data to output files")
-    req.outputData(r"D:\working\research\networkHospitals\API")
+    req.outputData(r"path\goes\here")
     print("All done!")
 
 if __name__ == "__main__":
